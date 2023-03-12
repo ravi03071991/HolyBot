@@ -1,6 +1,6 @@
 # HolyBot
 
-🚀 HolyBot answers your queries based on Bhagwad Gita/ Quran/ Bible.
+🚀 HolyBot gives answers and relevant verses for your queries based on Bhagwad Gita/ Quran/ Bible.
 
 This project is built using Pinecone and OpenAI ChatGPT. 
 - Get your pinecone api key, environment [here](https://app.pinecone.io/organizations/-NMeB1SFhOs6iUwHoAtz/projects/us-east1-gcp:e749001/indexes)
@@ -42,10 +42,10 @@ Launch Gradio app.
 ```
 python app.py --holybook $HOLY_BOOK --pinecone_apikey $PINECONE_API_KEY --pinecone_environment $PINECONE_ENVIRONMENT --openaikey $OPENAI_API_KEY
 ```
+## Demo:
+
+https://user-images.githubusercontent.com/12198101/224573190-7c10fad3-ca8b-4df9-8e3f-c36566dfc0d0.mov
 
 ## HuggingFace Space:
 
 You can check out HolyBot on huggingface spaces - https://huggingface.co/spaces/ravithejads/HolyBot
-
-## Demo:
-
